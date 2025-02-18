@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us"
-  dir="ltr">
+    dir="ltr">
 
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 
 
@@ -46,7 +46,7 @@
 
 
 
-<link rel="stylesheet" href="/assets/combined.min.32c4505ff6f37c4a072861f2cbad7347d8e8e8c8f60e01107b50d77c8c29f9f6.css" media="all">
+<link rel="stylesheet" href="/assets/combined.min.469b9e18ea2195aa0706aa872a7c5274fdf2cb7e74bd7273bed450bc30396614.css" media="all">
 
 
 
@@ -64,11 +64,12 @@
 
 
 
+
 <body class="auto">
 
-  <div class="content">
-    <header>
-      
+    <div class="content">
+        <header>
+            
 
 <div class="header">
 
@@ -111,13 +112,6 @@
             </a>
         </p>
         
-      
-        <p class="small ">
-            <a href="/manga" >
-                /manga
-            </a>
-        </p>
-        
         
     </div>
 
@@ -125,10 +119,10 @@
 
 </div>
 
-    </header>
+        </header>
 
-    <main class="main">
-      
+        <main class="main">
+            
 
 
 
@@ -147,40 +141,42 @@
 
 
 
-<div class="" 
-     dir="rtl">
+<div class="" dir="rtl" >
 
-  <div class="single-intro-container">
+    <div class="single-intro-container">
+
+        
+
+        <h1 class="single-title">دعم العربية في الطرفية</h1>
+        
+        <p class="single-summary">دعم اللغة العربية في الطرفية يتيح عرض النصوص العربية بشكل صحيح مع الحفاظ على اتجاه الكتابة من اليمين لليسار، مما يحسن تجربة المستخدمين الناطقين بالعربية في بيئات التشغيل المختلفة.</p>
+        
+
+        
+
+        <p class="single-readtime">
+            
+            
+            
+            <time datetime="2025-02-02T17:25:10&#43;08:00">February 2, 2025</time>
+            
+
+            
+        </p>
+
+    </div>
 
     
 
-    <h1 class="single-title">دعم العربية في الطرفية</h1>
-    
-    <p class="single-summary">summary</p>
     
 
     
+    <aside class="toc">
+        
+        <p><strong>جدول المحتويات</strong></p>
+        
 
-    <p class="single-readtime">
-      
-      
-      
-      <time datetime="2025-02-02T17:25:10&#43;08:00">February 2, 2025</time>
-      
-
-      
-    </p>
-
-  </div>
-
-  
-
-  
-
-  
-  <aside class="toc">
-    <p><strong>Table of contents</strong></p>
-    <nav id="TableOfContents">
+        <nav id="TableOfContents">
   <ul>
     <li>
       <ul>
@@ -193,13 +189,13 @@
     </li>
   </ul>
 </nav>
-  </aside>
-  
+    </aside>
+    
 
-  
+    
 
-  <div class="single-content">
-    <h3 class="heading" id="مقدمة">
+    <div class="single-content">
+        <h3 class="heading" id="مقدمة">
   مقدمة
   <a class="anchor" href="#%d9%85%d9%82%d8%af%d9%85%d8%a9">#</a>
 </h3>
@@ -248,37 +244,39 @@
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="font-weight:bold;font-style:italic">printf</span> <span style="color:#666;font-style:italic">&#34;\e[2 k&#34;</span>
 </span></span></code></pre></div><p>بعد فتح الطرفية من جديد، ستلاحظ أن جميع النصوص أصبحت معروضة باتجاه من اليمين لليسار، مما قد يتسبب في ظهور بعض الأخطاء الطريفة في الطرفية.</p>
 
+        
+    </div>
+
     
-  </div>
-
-  
 
 
-  
+    
 
-  
-  
+    
+    
 
-  
+    
 
-  
+    
 
-  
-  <div class="back-to-top">
-    <a href="#top">
-      back to top
-    </a>
-  </div>
-  
+    
+    <div class="back-to-top">
+        <a href="#top">
+            
+            الرجوع إلى الأعلى 
+            
+        </a>
+    </div>
+    
 
 </div>
 
 
-    </main>
-  </div>
+        </main>
+    </div>
 
-  <footer>
-    
+    <footer>
+        
 
     
     <p>Powered by
@@ -291,44 +289,45 @@
     
 
 
-  </footer>
+    </footer>
 
-  
+    
 
 </body>
 
 <script>
 
-  function isAuto() {
-    return document.body.classList.contains("auto");
-  }
-
-  function setTheme() {
-    if (!isAuto()) {
-      return
+    function isAuto() {
+        return document.body.classList.contains("auto");
     }
 
-    document.body.classList.remove("auto");
-    let cls = "light";
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      cls = "dark";
+    function setTheme() {
+        if (!isAuto()) {
+            return
+        }
+
+        document.body.classList.remove("auto");
+        let cls = "light";
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            cls = "dark";
+        }
+
+        document.body.classList.add(cls);
     }
 
-    document.body.classList.add(cls);
-  }
+    function invertBody() {
+        document.body.classList.toggle("dark");
+        document.body.classList.toggle("light");
+    }
 
-  function invertBody() {
-    document.body.classList.toggle("dark");
-    document.body.classList.toggle("light");
-  }
+    if (isAuto()) {
+        window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
+    }
 
-  if (isAuto()) {
-    window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
-  }
-
-  setTheme();
+    setTheme();
 
 </script>
 
-<script defer src="/js/copy-code.js"></script>
+<script defer src="/%20js/copy-code.js"></script>
+
 </html>
